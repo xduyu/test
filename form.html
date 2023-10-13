@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="content">
+        <div class="index">
+            <a href="index.html">Прейти на главную страницу</a>
+        </div>
+        <form action="" method="dialog">
+            <div class="form">
+                <div class="from-box">
+                    Введите Логин <input type="text" name="login" placeholder="Ваш логин">
+                </div>
+                <hr>
+                <div class="password-box">
+                    Введите Пароль <input type="password" name="password" placeholder="Ваш пароль" required>
+                </div>
+                <h3>Ваши интересы</h3>
+                <label for=""><input type="checkbox" name="interess" value="music">Музыка</label>
+                <input type="checkbox" name="interess" value="sport">Спорт
+                <input type="checkbox" name="interess" value="programming" checked>Программирование
+                <hr>
+                <h3>Род деятельности</h3>
+                <input type="radio" name="occupation" value="work">Работаю
+                <input type="radio" name="occupation" value="dontwork">Не работаю
+                <input type="radio" name="occupation" value="work">Учусь
+                <hr>
+                <h3>Ваш город</h3>
+                <select name="city">
+                    <option value="Tymen">Тюмень</option>
+                    <option value="Ekaterenburg">Екатеренбург</option>
+                    <option value="Moscow">Москва</option>
+                </select>
+                <p>
+                <h1>Коменты</h1>
+                <textarea name="comments" cols="30" rows="10"></textarea>
+                </p>
+                <p><input type="submit" value="Отправить">
+                    <button type="reset">очистить форму</button>
+                </p>
+            </div>
+        </form>
+    </div>
+    <form action="">
+        <h1>Оствьте ваши контакты</h1>
+        <p>
+            Ваше имя<br> <input type="text" name="name">
+            <hr>
+            Ваш номер телефона<br> <input type="tel" name="number">
+            <hr>
+            Ваша пачта<br> <input type="email" name="email" required>
+            <hr>
+            <input type="submit" value="Отправить">
+        </p>
+    </form>
+    <form action="">
+        <h1>Оставьте о нас отзыв</h1>
+        Ваше имя<br> <input type="text" name="name"><br>
+        <br>
+        Ваша почта<br> <input type="email" name="email" required>
+        <hr>
+        <h3>Как вам наша работа</h3>
+        <input type="radio" name="occupation">Хорошо<br>
+        <input type="radio" name="occupation">Плохо
+        <h3>Что можете посоветовать</h3>
+        <input type="checkbox" name="interess">Увиличть время работы<br>
+        <input type="checkbox" name="interess">Добавить товар<br>
+        <input type="checkbox" name="interess">Увиличить коллектив
+        <h3>От куда вы</h3>
+        <select name="city">
+            <option value="Tymen">Тюмень</option>
+            <option value="Ekaterenburg">Екатеренбург</option>
+            <option value="Moscow">Москва</option>
+        </select>
+        <h3>Комменты</h3>
+        <p>
+        <h1>Коменты</h1>
+        <textarea name="comments" cols="30" rows="10"></textarea>
+        </p>
+        <input type="submit" value="Отправить">
+    </form>
+</body>
+
+</html>
